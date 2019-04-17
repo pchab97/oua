@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Apple Katalog</string>
+    <string name="titleCategory">Wybierz Model</string>
+    <string name="action">Informacje</string>
+    <string name="author">Autor: Przemek</string>
+    <string name="version">V1.0</string>
+    <string-array name="topView">
+        <item>Telefony</item>
+        <item>Komputery</item>
+        <item>Tablety</item>
+    </string-array>
+</resources>

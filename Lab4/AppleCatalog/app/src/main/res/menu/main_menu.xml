@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app_name="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".Activities.MainActivity">
+
+<item
+    android:id="@+id/options"
+    android:icon="@android:drawable/btn_star_big_on"
+    android:orderInCategory="9"
+    android:title="@string/action"
+    app_name:showAsAction="always" />
+
+
+</menu>
