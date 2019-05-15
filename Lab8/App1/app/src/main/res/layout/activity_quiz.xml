@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/quizLayout"
+    tools:context=".Quiz">
+
+    <RadioGroup
+        android:id="@+id/myRadioGroup"
+        android:layout_width="157dp"
+        android:layout_height="130dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="MissingConstraints">
+
+        <RadioButton
+            android:id="@+id/odp1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/odp1"
+            android:checked="true"/>
+
+        <RadioButton
+            android:id="@+id/odp2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/odp2" />
+
+        <RadioButton
+            android:id="@+id/odp3"
+            android:layout_width="179dp"
+            android:layout_height="wrap_content"
+            android:text="@string/odp3" />
+
+        <RadioButton
+            android:id="@+id/odp4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/odp4" />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:layout_marginTop="72dp"
+        android:text="@string/question"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textAlignment="center"/>
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="198dp"
+        android:layout_height="110dp"
+        android:layout_marginStart="75dp"
+
+        android:scaleType="fitXY"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/myRadioGroup"
+        tools:srcCompat="@drawable/answer" />
+
+</android.support.constraint.ConstraintLayout>

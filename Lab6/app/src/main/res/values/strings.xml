@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Online Catalog with DB</string>
+    <string name="action_settings">Settings</string>
+
+    <string-array name="MenuOptions">
+        <item>Computer</item>
+        <item>Tablet</item>
+        <item>Phone</item>
+    </string-array>
+
+    <string name="action_get_info">Info</string>
+    <string name="action_info">Info</string>
+    <string name="action_submit">Submit</string>
+    <string name="submitActivity_name">Submit</string>
+    <string name="infoActivity_name">About...</string>
+    <string name="categoryActivity_name">Categories</string>
+    <string name="detailsActivity_name">Details</string>
+
+
+    <string name="orders_text">Orders</string>
+    <!--Submit-->
+    <string name="submit_text">Submit</string>
+    <string name="AppCurrency">$</string>
+    <!--Info-->
+    <string name="info_Title">Online Catalog</string>
+    <string name="info_Version">v1.1</string>
+    <string name="info_Author">Created by Przemyslaw Chabowski</string>
+    <string name="action_orders">Orders</string>
+
+
+</resources>
